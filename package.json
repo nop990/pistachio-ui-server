@@ -1,0 +1,20 @@
+{
+  "name": "pistachioserver",
+  "version": "1.0.0",
+  "description": "Package.json for Pistachio Electron stuff",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "package": "electron-packager . pistachio --platform=win32 --arch=x64 --overwrite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "electron": "^35.0.3"
+  },
+  "dependencies": {
+    "electron-packager": "^17.1.2"
+  }
+}

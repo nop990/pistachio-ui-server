@@ -1,5 +1,8 @@
-# {roject files
+# Project files
 reports/*
+Pistachio-win32-x64
+node_modules
+package-lock.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
